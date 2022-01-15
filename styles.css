@@ -14,21 +14,17 @@ nav{
    height: 100px; 
 
 }
-
 label.logo{
     color: black;
     font-size: 30px;
     font-weight: bold;
     padding: 0 100px;
     line-height: 100px;
-
 }
-
 nav ul{
     float: right;
     margin-right: 80px;
 }
-
 nav ul li{
     display: inline-block;
     line-height: 70px;
@@ -66,7 +62,7 @@ nav ul li a:hover{
     font-weight: 600;
     margin: 24px 0px;
   }
-  .banner-right:hover{
+.banner-right:hover{
       transform: scale(1.2);
       transition: 1s ease;
   }
@@ -89,7 +85,7 @@ nav ul li a:hover{
     padding: 0;
     margin-right: 75px;
   }
-  .items {
+.items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
@@ -97,7 +93,7 @@ nav ul li a:hover{
     justify-content: center;
     margin-top: 50px;
   }
-  .item {
+.item {
     width: 330px;
     height: auto;
     background: #ffffff;
@@ -107,29 +103,26 @@ nav ul li a:hover{
     padding-bottom: 30px;
     margin-bottom: 20px;
   }
-  .item-name {
+.item-name {
     color: #18191f;
     font-size: 28px;
     font-weight: 500;
     margin: 7px 0px;
   }
-  .item-price {
+.item-price {
     color: rgba(0, 0, 0, 0.87);
     font-size: 24px;
     font-weight: 400;
     margin: 7px 0px;
   }
-  .item img {
+.item img {
     width: 100%;
   }
-  .product-rate-icon {
-    color: #fb8200;
-  }
-  .item-info {
+.item-info {
     color: #787885;
     margin: 5px 0px;
   }
-  .rate-number {
+.rate-number {
     color: #5e6366;
     margin-left: 5px;
   }
@@ -216,6 +209,7 @@ footer small {
       }
       
   }
+  /*-- Pad/iPad--*/
   @media only screen and (min-width:768px) and (max-width:1023px) {
     nav{
         width: 100%;
