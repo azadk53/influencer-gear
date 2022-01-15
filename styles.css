@@ -52,15 +52,25 @@ nav ul li a:hover{
     display: flex;
     margin-top: 50px;
   }
+  .banner-left{
+      margin-right: 100px;
+      margin-left: 40px;
+      width: 50%;
+  }
 .banner-left h2 {
-    font-size: 52px;
-    color: #3a3a3a;
+    font-size: 50px;
+    color: black;
+    
   }
 .banner-left p {
-    color: #3a3a3a;
+    color: black;
     font-size: 16px;
-    font-weight: 600;
-    margin: 24px 0px;
+    font-weight: 500;
+    margin: 24px 0;
+  }
+  .banner-right img{
+      width: 450px;
+      height: 410px;
   }
 .banner-right:hover{
       transform: scale(1.2);
