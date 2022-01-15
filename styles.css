@@ -1,0 +1,269 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+   
+    margin: 0;
+    padding: 0;
+}
+
+/*--- Nav ---*/
+nav{
+   background-color: whitesmoke;
+   width: 100%;
+   height: 100px; 
+
+}
+
+label.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 100px;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px; 
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-decoration: none; 
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+/*--main body--Top part*/
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+.banner {
+    display: flex;
+    margin-top: 50px;
+  }
+.banner-left h2 {
+    font-size: 52px;
+    color: #3a3a3a;
+  }
+.banner-left p {
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 24px 0px;
+  }
+  .banner-right:hover{
+      transform: scale(1.2);
+      transition: 1s ease;
+  }
+.link-button{
+    text-decoration: none;
+    background-color: rgb(17, 17, 19);
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+/*-- products--*/
+.middle-block{
+    max-width: 1400px;
+    margin-left: 100px;
+}
+.section-title {
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin-right: 75px;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .item {
+    width: 330px;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 11px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  .item-name {
+    color: #18191f;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 7px 0px;
+  }
+  .item-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 7px 0px;
+  }
+  .item img {
+    width: 100%;
+  }
+  .product-rate-icon {
+    color: #fb8200;
+  }
+  .item-info {
+    color: #787885;
+    margin: 5px 0px;
+  }
+  .rate-number {
+    color: #5e6366;
+    margin-left: 5px;
+  }
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.more-product {
+  
+  float: right;
+  margin-top: 20px;
+  margin-right: 90px;
+  color: #250f17;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* Footer*/
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    background-color: #0a0826;
+    color: #ffffff;
+    padding: 30px 0;
+    height: 150px;
+  }
+footer small {
+    color: #d9dbe1;
+  }
+.social-link i {
+    margin: 30px 10px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+/*---For Mobile---*/
+  @media only screen and (max-width: 767px) {
+      nav{
+          width: 100%;
+          height: auto;
+      }
+      nav .logo{
+        margin: auto;
+        padding: 40px;
+       
+      }
+      nav ul{
+          display: none;
+      }
+      .banner{
+          display: flex;
+          flex-direction: column;
+      }
+      .banner-left{
+          margin-left: 20px;
+          margin-bottom: 20px;
+      }
+      .banner-right img{
+          width: 100%;
+      }
+      .section-title{
+          margin-left: 0px;
+        margin-right: 60px;
+      }
+      .middle-block{
+          margin: auto;
+          padding: auto;
+         
+      }
+      .items{
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+         
+      }
+      .item{
+          margin: auto;
+          padding: auto;
+
+      }
+      
+  }
+  @media only screen and (min-width:768px) and (max-width:1023px) {
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    nav .logo{
+      margin: auto;
+      padding: 250px;
+     
+    }
+    nav ul{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-left{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-right img{
+        width: 80%;
+        margin: 40px;
+    }
+    .banner-right:hover{
+    transform: scale(1);
+    }
+    .section-title{
+     margin-left: 0px;
+      margin-right: 60px;
+    }
+    .middle-block{
+        margin: auto;
+        padding: auto;
+       
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+       
+    }
+    .item{
+        margin: auto;
+        padding: auto;
+
+    }
+    
+      
+  }
